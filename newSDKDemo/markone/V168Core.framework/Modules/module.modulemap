@@ -1,0 +1,6 @@
+framework module V168Core {
+  umbrella header "V168Core.h"
+
+  export *
+  module * { export * }
+}
