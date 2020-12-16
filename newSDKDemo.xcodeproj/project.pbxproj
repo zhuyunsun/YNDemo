@@ -13,7 +13,6 @@
 		A52D807720E5DAF9004FE9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52D807620E5DAF9004FE9F3 /* Assets.xcassets */; };
 		A52D807A20E5DAF9004FE9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52D807820E5DAF9004FE9F3 /* LaunchScreen.storyboard */; };
 		A52D807D20E5DAF9004FE9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D807C20E5DAF9004FE9F3 /* main.m */; };
-		A53081DB210853A1004A626D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53081D2210853A1004A626D /* Bolts.framework */; };
 		A53081DC210853A1004A626D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A53081D3210853A1004A626D /* SVProgressHUD.bundle */; };
 		FE08360724CFFBED00E4887D /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0835FC24CFFBED00E4887D /* Protobuf.framework */; };
 		FE08360824CFFBED00E4887D /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0835FD24CFFBED00E4887D /* GoogleAppMeasurement.framework */; };
@@ -49,7 +48,6 @@
 		A52D807920E5DAF9004FE9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52D807B20E5DAF9004FE9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52D807C20E5DAF9004FE9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A53081D2210853A1004A626D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		A53081D3210853A1004A626D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FE05B4B424E13DE3008B476E /* newSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = newSDKDemo.entitlements; sourceTree = "<group>"; };
 		FE0835FC24CFFBED00E4887D /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				FEF7CC4325821FA3009EA062 /* FBSDKCoreKit.framework in Frameworks */,
 				FE08360D24CFFBED00E4887D /* nanopb.framework in Frameworks */,
 				FE08360724CFFBED00E4887D /* Protobuf.framework in Frameworks */,
-				A53081DB210853A1004A626D /* Bolts.framework in Frameworks */,
 				FE08360F24CFFBED00E4887D /* FirebaseInstanceID.framework in Frameworks */,
 				FE08360C24CFFBED00E4887D /* GoogleUtilities.framework in Frameworks */,
 				FE50FB84255BBB2400F4CB28 /* AppsFlyerLib.framework in Frameworks */,
@@ -164,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				FEF7CC3F25821FA3009EA062 /* fb7.1.1 */,
-				A53081D2210853A1004A626D /* Bolts.framework */,
 				A53081D3210853A1004A626D /* SVProgressHUD.bundle */,
 			);
 			path = fb;
