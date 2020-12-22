@@ -30,11 +30,11 @@
 		FE8B34472581D571007CB296 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B34462581D571007CB296 /* File.swift */; };
 		FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344A2581D580007CB296 /* Accelerate.framework */; };
 		FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344C2581D585007CB296 /* libc++.tbd */; };
+		FEEBFE7825918444008A2FE5 /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEBFE7725918444008A2FE5 /* V168Core.framework */; };
 		FEF7CC3C25821F59009EA062 /* V168SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF7CC3B25821F59009EA062 /* V168SDK.framework */; };
 		FEF7CC4225821FA3009EA062 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF7CC4025821FA3009EA062 /* FBSDKLoginKit.framework */; };
 		FEF7CC4325821FA3009EA062 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF7CC4125821FA3009EA062 /* FBSDKCoreKit.framework */; };
 		FEF7CC4825821FF4009EA062 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7CC4725821FF4009EA062 /* NewViewController.m */; };
-		FEF7CC5F258225B6009EA062 /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF7CC5E258225B6009EA062 /* V168Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,12 +68,12 @@
 		FE8B34462581D571007CB296 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE8B344A2581D580007CB296 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE8B344C2581D585007CB296 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FEEBFE7725918444008A2FE5 /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FEF7CC3B25821F59009EA062 /* V168SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168SDK.framework; sourceTree = "<group>"; };
 		FEF7CC4025821FA3009EA062 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FEF7CC4125821FA3009EA062 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FEF7CC4625821FF4009EA062 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
 		FEF7CC4725821FF4009EA062 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
-		FEF7CC5E258225B6009EA062 /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			files = (
 				FEF7CC4225821FA3009EA062 /* FBSDKLoginKit.framework in Frameworks */,
 				FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */,
-				FEF7CC5F258225B6009EA062 /* V168Core.framework in Frameworks */,
 				FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */,
 				FE08360A24CFFBED00E4887D /* FirebaseRemoteConfig.framework in Frameworks */,
+				FEEBFE7825918444008A2FE5 /* V168Core.framework in Frameworks */,
 				FE08360924CFFBED00E4887D /* FirebaseCore.framework in Frameworks */,
 				FEF7CC3C25821F59009EA062 /* V168SDK.framework in Frameworks */,
 				FEF7CC4325821FA3009EA062 /* FBSDKCoreKit.framework in Frameworks */,
@@ -146,7 +146,7 @@
 		A53081CC210853A1004A626D /* markone */ = {
 			isa = PBXGroup;
 			children = (
-				FEF7CC5E258225B6009EA062 /* V168Core.framework */,
+				FEEBFE7725918444008A2FE5 /* V168Core.framework */,
 				FEF7CC3B25821F59009EA062 /* V168SDK.framework */,
 				FE7D5113256F92B900EDA144 /* V168Bundle.bundle */,
 				FE50FB7F255BBB2400F4CB28 /* AppsFlyerLib.framework */,
