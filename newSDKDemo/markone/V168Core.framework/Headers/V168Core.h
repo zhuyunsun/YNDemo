@@ -3,7 +3,7 @@
 
 #define YNNOTI @"YN_is_formal"
 FOUNDATION_STATIC_INLINE NSString* YNSDKVERSION(){
-    NSString *VERSION = @"2.0.5";
+    NSString *VERSION = @"2.0.6";
     NSLog(@"YN版本 = %@",VERSION);
     return VERSION;
 }

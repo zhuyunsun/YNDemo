@@ -34,6 +34,7 @@
         btn.frame = CGRectMake(0, 0, 80, 40);
         btn.center = CGPointMake(self.view.center.x, i *(40 + 20) + 70);
         btn.titleLabel.font = [UIFont systemFontOfSize:15];
+        btn.backgroundColor = [UIColor lightGrayColor];
         [self.view addSubview:btn];
         
         [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchDown];
