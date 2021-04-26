@@ -44,6 +44,8 @@
 	<string>111</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>111</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>是否允许使用广告跟踪功能</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>UTM AVO.TTF</string>
