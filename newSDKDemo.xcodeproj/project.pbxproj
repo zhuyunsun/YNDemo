@@ -15,7 +15,6 @@
 		A52D807D20E5DAF9004FE9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D807C20E5DAF9004FE9F3 /* main.m */; };
 		FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BB926366B9400A712FF /* V168SDK.framework */; };
 		FE176BBE26366BC800A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */; };
-		FE176BC126366C7C00A712FF /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BC026366C7B00A712FF /* V168Core.framework */; };
 		FE3D89EE25E4CFBE005F7C97 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */; };
 		FE3D8A0225E4CFEB005F7C97 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89F425E4CFEB005F7C97 /* GoogleDataTransport.framework */; };
 		FE3D8A0325E4CFEB005F7C97 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89F525E4CFEB005F7C97 /* GoogleAppMeasurement.framework */; };
@@ -34,6 +33,7 @@
 		FE8B34472581D571007CB296 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B34462581D571007CB296 /* File.swift */; };
 		FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344A2581D580007CB296 /* Accelerate.framework */; };
 		FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344C2581D585007CB296 /* libc++.tbd */; };
+		FEBF25C326706D240081572E /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBF25C226706D230081572E /* V168Core.framework */; };
 		FED94C0E25EE3B7800815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */; };
 		FED94C0F25EE3B7800815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */; };
 		FEF7CC4825821FF4009EA062 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7CC4725821FF4009EA062 /* NewViewController.m */; };
@@ -53,7 +53,6 @@
 		FE05B4B424E13DE3008B476E /* newSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = newSDKDemo.entitlements; sourceTree = "<group>"; };
 		FE176BB926366B9400A712FF /* V168SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168SDK.framework; sourceTree = "<group>"; };
 		FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		FE176BC026366C7B00A712FF /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FE3D89F425E4CFEB005F7C97 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
 		FE3D89F525E4CFEB005F7C97 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		FE8B34462581D571007CB296 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE8B344A2581D580007CB296 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE8B344C2581D585007CB296 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FEBF25C226706D230081572E /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FEF7CC4625821FF4009EA062 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 				FE3D8A0A25E4CFEB005F7C97 /* FirebaseInstallations.framework in Frameworks */,
 				FE60617A2632771C00F87B5D /* AppsFlyerLib.framework in Frameworks */,
 				FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */,
-				FE176BC126366C7C00A712FF /* V168Core.framework in Frameworks */,
+				FEBF25C326706D240081572E /* V168Core.framework in Frameworks */,
 				FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */,
 				FE3D8A0325E4CFEB005F7C97 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE3D8A0B25E4CFEB005F7C97 /* FirebaseABTesting.framework in Frameworks */,
@@ -152,7 +152,7 @@
 		A53081CC210853A1004A626D /* markone */ = {
 			isa = PBXGroup;
 			children = (
-				FE176BC026366C7B00A712FF /* V168Core.framework */,
+				FEBF25C226706D230081572E /* V168Core.framework */,
 				FE176BB926366B9400A712FF /* V168SDK.framework */,
 				FE6061772632771C00F87B5D /* AF6.2.5 */,
 				FED94C0925EE3B7800815D90 /* fb9.1 */,
