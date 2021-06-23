@@ -13,6 +13,8 @@
 		A52D807720E5DAF9004FE9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52D807620E5DAF9004FE9F3 /* Assets.xcassets */; };
 		A52D807A20E5DAF9004FE9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52D807820E5DAF9004FE9F3 /* LaunchScreen.storyboard */; };
 		A52D807D20E5DAF9004FE9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D807C20E5DAF9004FE9F3 /* main.m */; };
+		FE097B0726833ABC0014FC34 /* V168Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE097B0526833ABC0014FC34 /* V168Bundle.bundle */; };
+		FE097B0826833ABC0014FC34 /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE097B0626833ABC0014FC34 /* V168Core.framework */; };
 		FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BB926366B9400A712FF /* V168SDK.framework */; };
 		FE176BBE26366BC800A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */; };
 		FE3D89EE25E4CFBE005F7C97 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */; };
@@ -29,11 +31,9 @@
 		FE3D8A0C25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89FF25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework */; };
 		FE50FB87255BBB2400F4CB28 /* UTM AVO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE50FB82255BBB2400F4CB28 /* UTM AVO.TTF */; };
 		FE60617A2632771C00F87B5D /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6061782632771C00F87B5D /* AppsFlyerLib.framework */; };
-		FE7D5115256F92B900EDA144 /* V168Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE7D5113256F92B900EDA144 /* V168Bundle.bundle */; };
 		FE8B34472581D571007CB296 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B34462581D571007CB296 /* File.swift */; };
 		FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344A2581D580007CB296 /* Accelerate.framework */; };
 		FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344C2581D585007CB296 /* libc++.tbd */; };
-		FEBF25C326706D240081572E /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBF25C226706D230081572E /* V168Core.framework */; };
 		FED94C0E25EE3B7800815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */; };
 		FED94C0F25EE3B7800815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */; };
 		FEF7CC4825821FF4009EA062 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7CC4725821FF4009EA062 /* NewViewController.m */; };
@@ -51,6 +51,8 @@
 		A52D807B20E5DAF9004FE9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52D807C20E5DAF9004FE9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE05B4B424E13DE3008B476E /* newSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = newSDKDemo.entitlements; sourceTree = "<group>"; };
+		FE097B0526833ABC0014FC34 /* V168Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = V168Bundle.bundle; sourceTree = "<group>"; };
+		FE097B0626833ABC0014FC34 /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FE176BB926366B9400A712FF /* V168SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168SDK.framework; sourceTree = "<group>"; };
 		FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
@@ -68,12 +70,10 @@
 		FE3D89FF25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		FE50FB82255BBB2400F4CB28 /* UTM AVO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UTM AVO.TTF"; sourceTree = "<group>"; };
 		FE6061782632771C00F87B5D /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
-		FE7D5113256F92B900EDA144 /* V168Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = V168Bundle.bundle; sourceTree = "<group>"; };
 		FE8B34452581D570007CB296 /* newSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "newSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE8B34462581D571007CB296 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE8B344A2581D580007CB296 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE8B344C2581D585007CB296 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		FEBF25C226706D230081572E /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FEF7CC4625821FF4009EA062 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 				FE3D8A0A25E4CFEB005F7C97 /* FirebaseInstallations.framework in Frameworks */,
 				FE60617A2632771C00F87B5D /* AppsFlyerLib.framework in Frameworks */,
 				FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */,
-				FEBF25C326706D240081572E /* V168Core.framework in Frameworks */,
+				FE097B0826833ABC0014FC34 /* V168Core.framework in Frameworks */,
 				FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */,
 				FE3D8A0325E4CFEB005F7C97 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE3D8A0B25E4CFEB005F7C97 /* FirebaseABTesting.framework in Frameworks */,
@@ -152,13 +152,13 @@
 		A53081CC210853A1004A626D /* markone */ = {
 			isa = PBXGroup;
 			children = (
-				FEBF25C226706D230081572E /* V168Core.framework */,
+				FE097B0526833ABC0014FC34 /* V168Bundle.bundle */,
+				FE097B0626833ABC0014FC34 /* V168Core.framework */,
 				FE176BB926366B9400A712FF /* V168SDK.framework */,
 				FE6061772632771C00F87B5D /* AF6.2.5 */,
 				FED94C0925EE3B7800815D90 /* fb9.1 */,
 				FE3D89F325E4CFEB005F7C97 /* google7.5.0 */,
 				FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */,
-				FE7D5113256F92B900EDA144 /* V168Bundle.bundle */,
 				FE50FB82255BBB2400F4CB28 /* UTM AVO.TTF */,
 			);
 			path = markone;
@@ -270,8 +270,8 @@
 			files = (
 				FE3D89EE25E4CFBE005F7C97 /* SVProgressHUD.bundle in Resources */,
 				A52D807A20E5DAF9004FE9F3 /* LaunchScreen.storyboard in Resources */,
+				FE097B0726833ABC0014FC34 /* V168Bundle.bundle in Resources */,
 				FE50FB87255BBB2400F4CB28 /* UTM AVO.TTF in Resources */,
-				FE7D5115256F92B900EDA144 /* V168Bundle.bundle in Resources */,
 				A52D807720E5DAF9004FE9F3 /* Assets.xcassets in Resources */,
 				A52D807520E5DAF7004FE9F3 /* Main.storyboard in Resources */,
 			);
@@ -454,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eyougame.etoile0002;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p2216;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "newSDKDemo/newSDKDemo-Bridging-Header.h";
@@ -495,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eyougame.etoile0002;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p2216;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "newSDKDemo/newSDKDemo-Bridging-Header.h";
