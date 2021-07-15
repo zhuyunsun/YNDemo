@@ -3,7 +3,7 @@
 
 #define YNNOTI @"YN_is_formal"
 FOUNDATION_STATIC_INLINE NSString* YNSDKVERSION(){
-    NSString *VERSION = @"2.1.2";
+    NSString *VERSION = @"2.1.3";
     NSLog(@"YN当前版本 = %@",VERSION);
     return VERSION;
 }
@@ -97,14 +97,7 @@ typedef void(^payResult)(NSString * state,NSInteger iosBackCode);
 //事件统计
 /*
  事件类型
- earn_virtual_currency 玩家购买货币(充值)
- spend_virtual_currency 玩家消耗货币
- join_group 玩家加入公会
  level_up 玩家升级
- select_content 玩家选择指定商品
- tutorial_begin 玩家开始教程
- tutorial_complete 玩家完成教程
- unlock_achievement 玩家达成成就(解锁成就或者到达等级之类的，根据游戏定制)
  role_completed        到达角色页面。      （cp 到达角色页面打点）
  game_completed        进入游戏打点。      （cp 进入游戏主城后打点）
  game_login_completed     sdk登陆完成后，点击游戏界面的 登陆游戏按钮打点（cp打点）
