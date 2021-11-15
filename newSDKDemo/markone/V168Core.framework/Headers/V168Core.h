@@ -3,8 +3,8 @@
 
 #define YNNOTI @"YN_is_formal"
 FOUNDATION_STATIC_INLINE NSString* YNSDKVERSION(){
-    NSString *VERSION = @"2.1.3";
-    NSLog(@"YN当前版本 = %@",VERSION);
+    NSString *VERSION = @"2.1.4";
+    NSLog(@"YN当前版本11.15 = %@",VERSION);
     return VERSION;
 }
 /*
@@ -123,4 +123,7 @@ typedef void(^payResult)(NSString * state,NSInteger iosBackCode);
      "is_formal" = 0;是否为正式服：1是，0否
  }
  */
+
+//不是该SDK的页面
+//-(void)showEmailCenterRoleid:(NSString *)roleid serverid:(NSString *)serverid;
 @end

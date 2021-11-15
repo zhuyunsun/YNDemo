@@ -14,7 +14,6 @@
 		A52D807A20E5DAF9004FE9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52D807820E5DAF9004FE9F3 /* LaunchScreen.storyboard */; };
 		A52D807D20E5DAF9004FE9F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D807C20E5DAF9004FE9F3 /* main.m */; };
 		FE097B0726833ABC0014FC34 /* V168Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE097B0526833ABC0014FC34 /* V168Bundle.bundle */; };
-		FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BB926366B9400A712FF /* V168SDK.framework */; };
 		FE176BBE26366BC800A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */; };
 		FE3D89EE25E4CFBE005F7C97 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */; };
 		FE3D8A0225E4CFEB005F7C97 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89F425E4CFEB005F7C97 /* GoogleDataTransport.framework */; };
@@ -29,13 +28,14 @@
 		FE3D8A0B25E4CFEB005F7C97 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89FE25E4CFEB005F7C97 /* FirebaseABTesting.framework */; };
 		FE3D8A0C25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D89FF25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework */; };
 		FE50FB87255BBB2400F4CB28 /* UTM AVO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FE50FB82255BBB2400F4CB28 /* UTM AVO.TTF */; };
-		FE60617A2632771C00F87B5D /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6061782632771C00F87B5D /* AppsFlyerLib.framework */; };
 		FE8B34472581D571007CB296 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B34462581D571007CB296 /* File.swift */; };
 		FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344A2581D580007CB296 /* Accelerate.framework */; };
 		FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B344C2581D585007CB296 /* libc++.tbd */; };
+		FEB3E62227423AA600EC0463 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB3E61F27423AA600EC0463 /* AppsFlyerLib.framework */; };
+		FEB3E62327423AA600EC0463 /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB3E62027423AA600EC0463 /* V168Core.framework */; };
+		FEB3E62427423AA600EC0463 /* V168SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB3E62127423AA600EC0463 /* V168SDK.framework */; };
 		FED94C0E25EE3B7800815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */; };
 		FED94C0F25EE3B7800815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */; };
-		FEF03BC926A0361B004AF5C3 /* V168Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF03BC826A0361B004AF5C3 /* V168Core.framework */; };
 		FEF7CC4825821FF4009EA062 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7CC4725821FF4009EA062 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +50,7 @@
 		A52D807920E5DAF9004FE9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52D807B20E5DAF9004FE9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52D807C20E5DAF9004FE9F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE05B4B424E13DE3008B476E /* newSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = newSDKDemo.entitlements; sourceTree = "<group>"; };
 		FE097B0526833ABC0014FC34 /* V168Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = V168Bundle.bundle; sourceTree = "<group>"; };
-		FE176BB926366B9400A712FF /* V168SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168SDK.framework; sourceTree = "<group>"; };
 		FE176BBD26366BC800A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FE3D89F425E4CFEB005F7C97 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
@@ -68,14 +66,15 @@
 		FE3D89FE25E4CFEB005F7C97 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
 		FE3D89FF25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		FE50FB82255BBB2400F4CB28 /* UTM AVO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UTM AVO.TTF"; sourceTree = "<group>"; };
-		FE6061782632771C00F87B5D /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE8B34452581D570007CB296 /* newSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "newSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE8B34462581D571007CB296 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE8B344A2581D580007CB296 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE8B344C2581D585007CB296 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FEB3E61F27423AA600EC0463 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		FEB3E62027423AA600EC0463 /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
+		FEB3E62127423AA600EC0463 /* V168SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168SDK.framework; sourceTree = "<group>"; };
 		FED94C0A25EE3B7800815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94C0B25EE3B7800815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		FEF03BC826A0361B004AF5C3 /* V168Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = V168Core.framework; sourceTree = "<group>"; };
 		FEF7CC4625821FF4009EA062 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
 		FEF7CC4725821FF4009EA062 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,11 +86,10 @@
 			files = (
 				FE176BBE26366BC800A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FE8B344D2581D585007CB296 /* libc++.tbd in Frameworks */,
+				FEB3E62327423AA600EC0463 /* V168Core.framework in Frameworks */,
 				FED94C0E25EE3B7800815D90 /* FBSDKLoginKit.framework in Frameworks */,
 				FE3D8A0A25E4CFEB005F7C97 /* FirebaseInstallations.framework in Frameworks */,
-				FE60617A2632771C00F87B5D /* AppsFlyerLib.framework in Frameworks */,
-				FE176BBB26366B9400A712FF /* V168SDK.framework in Frameworks */,
-				FEF03BC926A0361B004AF5C3 /* V168Core.framework in Frameworks */,
+				FEB3E62227423AA600EC0463 /* AppsFlyerLib.framework in Frameworks */,
 				FE8B344B2581D580007CB296 /* Accelerate.framework in Frameworks */,
 				FE3D8A0325E4CFEB005F7C97 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE3D8A0B25E4CFEB005F7C97 /* FirebaseABTesting.framework in Frameworks */,
@@ -103,6 +101,7 @@
 				FE3D8A0225E4CFEB005F7C97 /* GoogleDataTransport.framework in Frameworks */,
 				FED94C0F25EE3B7800815D90 /* FBSDKCoreKit.framework in Frameworks */,
 				FE3D8A0C25E4CFEB005F7C97 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FEB3E62427423AA600EC0463 /* V168SDK.framework in Frameworks */,
 				FE3D8A0725E4CFEB005F7C97 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +129,6 @@
 		A52D806C20E5DAF7004FE9F3 /* newSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FE05B4B424E13DE3008B476E /* newSDKDemo.entitlements */,
 				A53081CC210853A1004A626D /* markone */,
 				A52D806D20E5DAF7004FE9F3 /* AppDelegate.h */,
 				A52D806E20E5DAF7004FE9F3 /* AppDelegate.m */,
@@ -152,10 +150,10 @@
 		A53081CC210853A1004A626D /* markone */ = {
 			isa = PBXGroup;
 			children = (
-				FEF03BC826A0361B004AF5C3 /* V168Core.framework */,
+				FEB3E61E27423AA600EC0463 /* AF6.4.2 */,
+				FEB3E62027423AA600EC0463 /* V168Core.framework */,
+				FEB3E62127423AA600EC0463 /* V168SDK.framework */,
 				FE097B0526833ABC0014FC34 /* V168Bundle.bundle */,
-				FE176BB926366B9400A712FF /* V168SDK.framework */,
-				FE6061772632771C00F87B5D /* AF6.2.5 */,
 				FED94C0925EE3B7800815D90 /* fb9.1 */,
 				FE3D89F325E4CFEB005F7C97 /* google7.5.0 */,
 				FE3D89ED25E4CFBE005F7C97 /* SVProgressHUD.bundle */,
@@ -183,14 +181,6 @@
 			path = google7.5.0;
 			sourceTree = "<group>";
 		};
-		FE6061772632771C00F87B5D /* AF6.2.5 */ = {
-			isa = PBXGroup;
-			children = (
-				FE6061782632771C00F87B5D /* AppsFlyerLib.framework */,
-			);
-			path = AF6.2.5;
-			sourceTree = "<group>";
-		};
 		FE8B34492581D57F007CB296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +189,14 @@
 				FE8B344A2581D580007CB296 /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEB3E61E27423AA600EC0463 /* AF6.4.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FEB3E61F27423AA600EC0463 /* AppsFlyerLib.framework */,
+			);
+			path = AF6.4.2;
 			sourceTree = "<group>";
 		};
 		FED94C0925EE3B7800815D90 /* fb9.1 */ = {
@@ -430,9 +428,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = newSDKDemo/newSDKDemo.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6WJ4DK4A4;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5B9CFYK5CV;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/newSDKDemo/Eserver",
@@ -447,6 +446,7 @@
 					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.2.2",
 					"$(PROJECT_DIR)/newSDKDemo/markone/fb9.1",
 					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.2.5",
+					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.4.2",
 				);
 				INFOPLIST_FILE = newSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +454,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p2216;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = p22_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "newSDKDemo/newSDKDemo-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -471,9 +471,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = newSDKDemo/newSDKDemo.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6WJ4DK4A4;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5B9CFYK5CV;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/newSDKDemo/Eserver",
@@ -488,6 +489,7 @@
 					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.2.2",
 					"$(PROJECT_DIR)/newSDKDemo/markone/fb9.1",
 					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.2.5",
+					"$(PROJECT_DIR)/newSDKDemo/markone/AF6.4.2",
 				);
 				INFOPLIST_FILE = newSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,9 +497,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p2216;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1618.p22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = p22_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "newSDKDemo/newSDKDemo-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
